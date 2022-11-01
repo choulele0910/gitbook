@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T10:24:02.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="tTT2jjUgl92y5v8mOmIy" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-01T10:30:24.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Adt-Q93SO6hb9AbpXgwO" version="20.2.3" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="738" dy="303" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="1">
+    <mxGraphModel dx="684" dy="433" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="240" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
-          <mxGeometry x="45" y="100" width="10" height="440" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="330" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" value="标准接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
@@ -92,6 +92,28 @@
         </mxCell>
         <mxCell id="DqkWOxUdnKcbze_voKuk-11" value="异步请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="485" y="328" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CBGumkdD2ZOxyOtN7Z9H-8" value="回调" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=1.281;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="7baba1c4bc27f4b0-9" parent="1" source="7baba1c4bc27f4b0-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="530" as="sourcePoint" />
+            <mxPoint x="296" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CBGumkdD2ZOxyOtN7Z9H-10" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.8;entryY=0.731;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0152" y="-14" relative="1" as="geometry">
+            <mxPoint x="584" y="507.01999999999987" as="sourcePoint" />
+            <mxPoint x="452" y="507.01999999999987" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CBGumkdD2ZOxyOtN7Z9H-11" value="回调结果" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="156" y="583" as="sourcePoint" />
+            <mxPoint x="316" y="583" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="247" y="583" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
