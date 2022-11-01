@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:59:52.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1TeAdqOddm7tJtlz27-4" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-01T10:24:02.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="tTT2jjUgl92y5v8mOmIy" version="20.2.3" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="526" dy="306" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="1">
+    <mxGraphModel dx="738" dy="303" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gQ2CnhozJ5zBLw7e0lQO" name="第 2 页">
-    <mxGraphModel dx="526" dy="306" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="1342" dy="551" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,8 +177,8 @@
             <mxPoint x="295" y="533" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-27" value="请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="347" y="190" width="42" height="26" as="geometry" />
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-27" value="实收入账" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="190" width="66" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
