@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:14:52.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xgrFkyEAsH7jimhBS_jr" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:15:46.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OAnadxqFyj1577xME7Ox" version="20.2.3" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="526" dy="306" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="1">
       <root>
@@ -101,13 +101,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-1" value="适配接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-1" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="240" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ieMg2AEFH-h3RglZFJhA-1">
           <mxGeometry x="45" y="100" width="10" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-3" value="标准接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-3" value="BOSS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ieMg2AEFH-h3RglZFJhA-3">
@@ -132,18 +132,6 @@
             <mxPoint x="60" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-7" value="app-fees" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="540" y="80" width="100" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1.193;exitY=0.121;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ieMg2AEFH-h3RglZFJhA-7">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-83.07000000000005" y="268.20000000000005" as="sourcePoint" />
-            <mxPoint x="50" y="268" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="585" y="220" width="10" height="400" as="geometry" />
-        </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
           <mxGeometry x="1005" y="460" width="10" height="30" as="geometry" />
         </mxCell>
@@ -154,15 +142,12 @@
         </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-15" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="449.5" y="394" as="sourcePoint" />
-            <mxPoint x="289.5" y="394" as="targetPoint" />
+            <mxPoint x="449.5" y="307" as="sourcePoint" />
+            <mxPoint x="289.5" y="307" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="394" />
+              <mxPoint x="400" y="307" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-17" value="异步请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="485" y="328" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
