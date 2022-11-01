@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:45:48.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SyvEfYk-bo3HHKYTI2st" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:59:31.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kycYpCu3fAVLpPXG7FDb" version="20.2.3" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="526" dy="306" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="1">
       <root>
@@ -102,52 +102,58 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ieMg2AEFH-h3RglZFJhA-1" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="240" y="78" width="100" height="625" as="geometry" />
         </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ieMg2AEFH-h3RglZFJhA-1">
-          <mxGeometry x="45" y="100" width="10" height="440" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="494" as="geometry" />
+        </mxCell>
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="ieMg2AEFH-h3RglZFJhA-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="127" as="sourcePoint" />
+            <mxPoint x="210" y="127" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-3" value="BOSS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="403" y="79" width="100" height="624" as="geometry" />
         </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ieMg2AEFH-h3RglZFJhA-3">
-          <mxGeometry x="45" y="120" width="10" height="420" as="geometry" />
+          <mxGeometry x="45" y="106" width="10" height="488" as="geometry" />
         </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-5" value="检查必填参数，&lt;br&gt;收款来源" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="ieMg2AEFH-h3RglZFJhA-3">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-5" value="检查必填参数，&lt;br&gt;收款来源" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="ieMg2AEFH-h3RglZFJhA-3">
+          <mxGeometry x="-0.0952" y="6" relative="1" as="geometry">
             <mxPoint x="58" y="128" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="88" y="128" />
+              <mxPoint x="88" y="160" />
+              <mxPoint x="55" y="160" />
             </Array>
-            <mxPoint x="63" y="148" as="targetPoint" />
+            <mxPoint x="55" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-6" value="检查应收状态，&lt;br&gt;校验应收金额" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="ieMg2AEFH-h3RglZFJhA-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="180" as="sourcePoint" />
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-6" value="检查应收状态，&lt;br&gt;校验应收金额" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;exitX=1.033;exitY=0.193;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ieMg2AEFH-h3RglZFJhA-3">
+          <mxGeometry x="0.2494" y="3" relative="1" as="geometry">
+            <mxPoint x="55.33000000000004" y="207.18399999999997" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="90" y="180" />
-              <mxPoint x="90" y="200" />
+              <mxPoint x="55" y="174" />
+              <mxPoint x="90" y="174" />
+              <mxPoint x="90" y="207" />
             </Array>
-            <mxPoint x="60" y="200" as="targetPoint" />
+            <mxPoint x="55" y="207" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-19" value="实收入账（fees）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.98;entryY=0.355;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.087;exitY=0.237;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="ieMg2AEFH-h3RglZFJhA-4" parent="ieMg2AEFH-h3RglZFJhA-3" source="ieMg2AEFH-h3RglZFJhA-4">
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-19" value="实收入账（fees）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;exitX=1.033;exitY=0.435;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ieMg2AEFH-h3RglZFJhA-3" source="ieMg2AEFH-h3RglZFJhA-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="219" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="55" y="220" />
               <mxPoint x="91" y="220" />
-              <mxPoint x="91" y="269" />
+              <mxPoint x="91" y="400" />
+              <mxPoint x="55" y="400" />
+              <mxPoint x="55" y="402" />
             </Array>
-            <mxPoint x="66" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1005" y="460" width="10" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-13" value="请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="ieMg2AEFH-h3RglZFJhA-2" target="ieMg2AEFH-h3RglZFJhA-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="200" as="sourcePoint" />
+            <mxPoint x="53" y="402" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-15" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
@@ -159,17 +165,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ieMg2AEFH-h3RglZFJhA-24" value="回调" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.448;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="ieMg2AEFH-h3RglZFJhA-2" parent="1" source="ieMg2AEFH-h3RglZFJhA-4">
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-24" value="回调" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.448;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365" y="377" as="sourcePoint" />
-            <mxPoint x="305" y="377" as="targetPoint" />
+            <mxPoint x="445" y="516.12" as="sourcePoint" />
+            <mxPoint x="294" y="516.12" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ieMg2AEFH-h3RglZFJhA-25" value="返回回调结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="449.5" y="410" as="targetPoint" />
-            <mxPoint x="295" y="410" as="sourcePoint" />
+            <mxPoint x="449.5" y="544" as="targetPoint" />
+            <mxPoint x="295" y="544" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ieMg2AEFH-h3RglZFJhA-27" value="请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="347" y="190" width="42" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
